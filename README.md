@@ -111,7 +111,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Contact
 
-For any questions or suggestions, please reach out to [your-sachinandan.priv05@gmail.com](mailto:sachinandan.priv05@gmail.com).
+For any questions or suggestions, please reach out to [sachinandan.priv05@gmail.com](mailto:sachinandan.priv05@gmail.com).
 
 
 
