@@ -46,23 +46,6 @@ Flight_Management_System/
 - **Data Storage**: File-based storage system
 - **Version Control**: Git
 
-## Installation
-
-1. **Clone the repository**:
-   ```sh
-   git clone https://github.com/anand2026/Flight-magement-system.git
-   ```
-
-2. **Navigate to the project directory**:
-   ```sh
-   cd Flight-magement-system
-   ```
-
-3. **Compile the project**:
-   ```sh
-   g++ -o flight_system main.cpp Source_File/*.cpp
-   ```
-
 ## Usage
 
 1. **Run the executable**:
@@ -96,16 +79,6 @@ Flight_Management_System/
 - Processes ticket bookings
 - Manages reservation status
 - Handles ticket modifications
-
-## Contributing
-
-We welcome contributions to improve the Flight Management System. To contribute:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## License
 
