@@ -1,117 +1,121 @@
-# Flight Booking System
+# Flight Management System
 
 ## Overview
 
-The Flight Booking System is a C++ project designed to manage and facilitate the operations of an airline's flight schedules, reservations, and passenger information. This project aims to provide a user-friendly interface for managing flights, booking reservations, and handling customer inquiries.
+The Flight Management System is a comprehensive C++ application designed to streamline airline operations by managing flight schedules, passenger reservations, and ticket bookings. This system provides an efficient and user-friendly interface for both administrators and passengers to handle various aspects of flight management.
 
 ## Features
 
-- **Flight Management**: Add, remove flight information.
-- **Reservation System**: Book, cancel, and view reservations.
+### For Administrators
+- **Flight Management**
+  - Add new flights with detailed information
+  - Remove existing flights
+  - Update flight schedules and details
+  - View all flight information
 
+### For Passengers
+- **Reservation System**
+  - Book flight tickets
+  - Cancel existing reservations
+  - View booking history
+  - Check flight availability
+  - View ticket details
 
--
+## Project Structure
+
+```
+Flight_Management_System/
+├── Classes/
+│   ├── Management.h
+│   ├── Details.h
+│   ├── Registration.h
+│   └── Ticket.h
+├── Source_File/
+│   ├── Management.cpp
+│   ├── Details.cpp
+│   ├── Registration.cpp
+│   └── Ticket.cpp
+├── main.cpp
+└── README.md
+```
 
 ## Technologies Used
 
 - **Programming Language**: C++
-- **Data Storage**: File handling for storing flight and reservation data
-- **Development Environment**: Any C++ compiler (e.g., GCC, MSVC)
+- **Development Environment**: Any C++ compiler (GCC, MSVC, etc.)
+- **Data Storage**: File-based storage system
+- **Version Control**: Git
 
 ## Installation
 
 1. **Clone the repository**:
-    ```sh
-    git clone https://github.com/sachinandan-05/flight-booking-system.git
-    ```
+   ```sh
+   git clone https://github.com/anand2026/Flight-magement-system.git
+   ```
+
 2. **Navigate to the project directory**:
-    ```sh
-    cd flight-booking-system
-    ```
+   ```sh
+   cd Flight-magement-system
+   ```
+
 3. **Compile the project**:
-    ```sh
-    g++ -I include/ -o flight_booking_system main/main.cpp src/Management.cpp src/Details.cpp src/Registration.cpp src/Ticket.cpp
-    ```
+   ```sh
+   g++ -o flight_system main.cpp Source_File/*.cpp
+   ```
 
 ## Usage
 
 1. **Run the executable**:
-    ```sh
-    ./flight_booking_system
-    ```
-2. **Follow the on-screen prompts** to navigate through the system:
-    - Login as an  passenger.
-    - Manage flights.
-    .
+   ```sh
+   ./flight_system
+   ```
 
+2. **System Navigation**:
+   - Choose between Admin and Passenger modes
+   - Follow the on-screen prompts for various operations
+   - Use the menu system to navigate through different features
 
-### Include Files
+## Core Components
 
-- **Management.h**: Header file for flight management functions.
-- **Details.h**: Header file for passenger and flight details.
-- **Registration.h**: Header file for user registration and login.
-- **Ticket.h**: Header file for ticket booking and management.
+### Management Class
+- Handles flight operations
+- Manages flight schedules
+- Controls flight availability
 
-### Source Files
+### Details Class
+- Stores passenger information
+- Maintains flight details
+- Manages booking records
 
-- **Management.cpp**: Implementation of flight management functions.
-- **Details.cpp**: Implementation of passenger and flight details functions.
-- **Registration.cpp**: Implementation of user registration and login functions.
-- **Ticket.cpp**: Implementation of ticket booking and management functions.
+### Registration Class
+- Handles user authentication
+- Manages user profiles
+- Controls access levels
 
-### Main File
-
-- **main.cpp**: The main entry point of the application.
-
-## Classes and Methods
-
-### Management
-
-- **addFlight()**: Adds a new flight to the system.
-- **removeFlight()**: Removes an existing flight from the system.
-- **updateFlight()**: Updates information about a flight.
-
-
-### Details
-
-
-- **getFlightDetails()**: Retrieves flight details.
-
-### Registration
-
-- **registerUser()**: Registers a new user.
-
-
-### Ticket
-
-- **bookTicket()**: Books a new ticket.
-- **cancelTicket()**: Cancels an existing ticket.
-- **viewTicket()**: Views details of a booked ticket.
+### Ticket Class
+- Processes ticket bookings
+- Manages reservation status
+- Handles ticket modifications
 
 ## Contributing
 
-1. **Fork the repository**.
-2. **Create a new branch** for your feature or bugfix:
-    ```sh
-    git checkout -b feature-name
-    ```
-3. **Commit your changes**:
-    ```sh
-    git commit -m "Description of changes"
-    ```
-4. **Push to the branch**:
-    ```sh
-    git push origin feature-name
-    ```
-5. **Create a pull request**.
+We welcome contributions to improve the Flight Management System. To contribute:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
 
-For any questions or suggestions, please reach out to [sachinandan.priv05@gmail.com](mailto:sachinandan.priv05@gmail.com).
+For support or queries, please contact:
+- GitHub: [@anand2026](https://github.com/anand2026)
+- Project Link: [https://github.com/anand2026/Flight-magement-system](https://github.com/anand2026/Flight-magement-system)
 
 
 
